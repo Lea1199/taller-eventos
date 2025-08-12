@@ -1,5 +1,5 @@
 let div =document.getElementById("division");
-
-div.addEventListener("click", function(){
+document.getElementById("division").addEventListener("click", function(){
+     event.stopPropagation();
     alert("Hola! Soy el Div");
 });
